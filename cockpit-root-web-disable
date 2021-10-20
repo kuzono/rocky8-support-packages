@@ -1,0 +1,5 @@
+# Secure Cockpit
+# Edit source file: /etc/pam.d/cockpit 
+# Add the following as the first line
+
+auth requisite pam_succeed_if.so uid >= 1000
